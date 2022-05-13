@@ -5,7 +5,7 @@ import { useFonts, Inter_400Regular, Inter_500Medium } from '@expo-google-fonts/
 
 import 'react-native-gesture-handler';
 import { theme } from './src/theme';
-import { Widget } from './src/components/Widget';
+import Widget from './src/components/Widget';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
