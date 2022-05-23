@@ -7,7 +7,7 @@ export function Copyright() {
   return (
     <View>
         <Text style={styles.text}>
-        Feito com ♥ pela <a className="underline underline-offset-2" href="https://rocketseat.com.br">Rocketseat</a>
+        Feito com ♥ pela Rocketseat
         </Text>
     </View>
   );
