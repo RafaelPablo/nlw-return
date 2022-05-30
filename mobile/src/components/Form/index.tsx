@@ -9,6 +9,7 @@ import { ScreenShotButton } from '../../components/ScreenShotButton';
 import { Button } from '../../components/Button';
 import { captureScreen } from 'react-native-view-shot';
 import { api } from '../../libs/api';
+import * as FileSystem from 'expo-file-system';
 
 interface Props {
     feedbackType: FeedbackType;
@@ -19,7 +20,7 @@ interface Props {
 export function Form( { feedbackType, onFeedbackCanceled, onFeedbackSent }: Props) {
     const [isSendingFeedback, setIsSendingFeedback] = useState(false);
     const [screenshot, setScreenshot] = useState<string | null>(null);
-    const [comment, setComment] = useState("");
+    const [comment, setComment] = useState('');
     const feedbackTypeInfo = feedbackTypes[feedbackType];
 
     function handleScreenshot(){
@@ -42,13 +43,20 @@ export function Form( { feedbackType, onFeedbackCanceled, onFeedbackSent }: Prop
         if(isSendingFeedback){
             return;
         }
+        
         setIsSendingFeedback(true);
+
+        const screenshotBase64 = screenshot && await FileSystem.readAsStringAsync(screenshot, { encoding: 'base64'});
 
         try {
             await api.post('/feedbacks', {
                 type: feedbackType,
-                screenshot
-            })
+                screenshot: `data:image/png;base64, ${screenshotBase64}`,
+                comment
+            });
+
+            onFeedbackSent();
+
         } catch (error) {
             console.log(error);
             setIsSendingFeedback(false);
@@ -83,6 +91,7 @@ export function Form( { feedbackType, onFeedbackCanceled, onFeedbackSent }: Prop
             placeholder="Algo não está funcionando bem? Queremos corrigir. Conte com detalhes o que está acontecendo"
             placeholderTextColor={theme.colors.text_secondary}
             autoCorrect={false}
+            onChangeText={setComment}
         />
 
         <View style={styles.footer}>

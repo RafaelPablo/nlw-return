@@ -3,7 +3,6 @@ import { TouchableOpacity } from 'react-native';
 import { ChatTeardropDots } from 'phosphor-react-native';
 import BottomSheet from '@gorhom/bottom-sheet';
 import { gestureHandlerRootHOC } from 'react-native-gesture-handler';
-
 import { styles } from './styles';
 import { theme } from '../../theme';
 import { Options } from '../Options';
@@ -53,7 +52,7 @@ function Widget() {
       >
         {
           feedbackSent ?
-          <Success />
+          <Success onSendAnotherFeedback={handleRestartFeedback}/>
           :
           <>
             {

@@ -1,4 +1,3 @@
-import { type } from "os";
 import { MailAdapter } from "../adapters/mail-adapter";
 import { FeedbacksRepository } from "../repositories/feedbacks-repository";
 
@@ -41,6 +40,7 @@ export class SubmitFeedbackUseCase {
                 `<div style="font-family: sans-serif; font-size: 16px; color: #111;"`,
                 `<p>Tipo de feedback: ${type}</p>`,
                 `<p>Comentário: ${comment}</p>`,
+                `<p>${screenshot}</p>`,
                 `</div>`
             ].join('\n')
         })
