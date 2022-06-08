@@ -6,4 +6,4 @@ export function Loading() {
             <CircleNotch weight="bold" className="w-4 h-4 animate-spin" />
         </div>
     )
-}
+} 
