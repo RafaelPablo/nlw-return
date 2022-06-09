@@ -1,11 +1,12 @@
-## Trilha Impulse do evento Next Level Week Return realizado pela [Rocketseat](https://www.rocketseat.com.br).
+## Development of a feedback feature using Node React React Native 
+## Trail Impulse from event Next Level Week Return realized by [Rocketseat](https://www.rocketseat.com.br).
 
 
-# Node.js
-![Mailtrap](https://github.com/RafaelPablo/nlw-return/blob/main/_walls/mailtrap.gif)
+### Usage of Mailtrap to receive e-mails from requests on back end
+![Mailtrap](https://github.com/RafaelPablo/nlw-return/blob/main/_walls/mobile.gif)
 
-# ReactJS
+### ReactJS
 ![ReactJS](https://github.com/RafaelPablo/nlw-return/blob/main/_walls/front.gif)
 
-# React Native
-![React Native](https://github.com/RafaelPablo/nlw-return/blob/main/_walls/mobile.gif)
+### Node.js
+![Mailtrap](https://github.com/RafaelPablo/nlw-return/blob/main/_walls/mailtrap.gif)
