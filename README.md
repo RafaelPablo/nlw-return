@@ -1,15 +1,19 @@
 Development of a feedback feature using 
-Node ![Node](https://github.com/RafaelPablo/nlw-return/blob/main/_walls/icons8-node-js-80.png){:height="20px" width="20px"} 
-React ![React](https://github.com/RafaelPablo/nlw-return/blob/main/_walls/icons8-react-80.png){:height="20px" width="20px"} 
-React Native ![React Native](https://github.com/RafaelPablo/nlw-return/blob/main/_walls/icons8-react-80.png){:height="20px" width="20px"}
-With this feature is possible to send/report feedback types: Bug, Idea or Other using e-mail  
+Node <img src="_walls/icons8-node-js-80.png" width="40">
+React <img src="_walls/icons8-react-80.png" width="40">
+React Native <img src="_walls/icons8-react-80.png" width="40">
+With this feature is possible to send/report feedback types: Bug, Idea or Other using e-mail with a comment and a screen shoot.  
 
 Trail Impulse from event Next Level Week Return realized by [Rocketseat](https://www.rocketseat.com.br).
+
+Other tools:
+* [Tailwindcss](https://tailwindcss.com/)
+* [Expo](https://expo.dev/)
+* [Mailtrap](https://mailtrap.io/)
 
 Tools used for deploy:
 * [Vercel](https://vercel.com/)
 * [Raillway](https://railway.app/)
-
 
 ### React Native
 Demo:
@@ -32,11 +36,8 @@ Commands list:
 - expo init mobile
 - expo start
 - extension id: rodrigorgtic.rcomponent
-    
     rnso - styles
-    
     rnbc - index
-    
 - expo install expo-font @expo-google-fonts/inter
 - expo install expo-app-loading
 - npm install --save phosphor-react-native
