@@ -1,34 +1,35 @@
-Development of a feedback feature using 
-Node <img src="_walls/icons8-node-js-80.png" width="40">
-React <img src="_walls/icons8-react-80.png" width="40">
-React Native <img src="_walls/icons8-react-80.png" width="40">
-With this feature is possible to send/report feedback types: Bug, Idea or Other using e-mail with a comment and a screen shoot.  
+Development of a feedback feature using <br />
+Node <img src="_walls/icons8-node-js-80.png" width="40"> <br />
+React <img src="_walls/icons8-react-80.png" width="40"> <br />
+React Native <img src="_walls/icons8-react-80.png" width="40"> <br />
+With this feature is possible to send/report feedback types: Bug, Idea or Other using e-mail with a comment and a screen shoot. <br />
 
-Trail Impulse from event Next Level Week Return realized by [Rocketseat](https://www.rocketseat.com.br).
+Trail Impulse from event Next Level Week Return realized by [Rocketseat](https://www.rocketseat.com.br). <br />
 
 Other tools:
-* [Tailwindcss](https://tailwindcss.com/)
 * [Expo](https://expo.dev/)
 * [Mailtrap](https://mailtrap.io/)
+* [Prisma](https://www.prisma.io/)
+* [Tailwindcss](https://tailwindcss.com/)
 
 Tools used for deploy:
-* [Vercel](https://vercel.com/)
 * [Raillway](https://railway.app/)
+* [Vercel](https://vercel.com/)
 
 ### React Native
-Demo:
+Demo: <br />
 ![Mailtrap](https://github.com/RafaelPablo/nlw-return/blob/main/_walls/mobile.gif)
 
 #### ReactJS
-Demo:
+Demo: <br />
 ![ReactJS](https://github.com/RafaelPablo/nlw-return/blob/main/_walls/front.gif)
 
-### Usage of Mailtrap to receive e-mails from requests on back end
-Received feedback sent by the apps:
+### NodeJs
+Received e-mails with feedback sent by the apps: <br />
 ![Mailtrap](https://github.com/RafaelPablo/nlw-return/blob/main/_walls/mailtrap.gif)
 
 Commands list:
-# React Native
+### React Native
 
 - npm install -g expo-cli
 - [https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR&gl=US](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR&gl=US)
@@ -51,7 +52,7 @@ Commands list:
 - npm install axios
 - expo install expo-file-system
 
-# Node
+### Node
 
 - npm init -y
 - npm i typescript @types/node ts-node-dev -D
@@ -77,7 +78,7 @@ Commands list:
 - npm i @types/cors -D
 - npm run build
 
-# React
+### React
 
 - npm create vite@latest
 - npm run dev
