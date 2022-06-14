@@ -3,7 +3,7 @@ Development of a feedback feature using <br />
 <img src="_walls/icons8-react-80.png" width="20"> React <br /> 
 <img src="_walls/icons8-react-80.png" width="20"> React Native <br />
 
-With this feature is possible to send/report feedback types: Bug, Idea or Other using e-mail with a comment and a screen shoot. <br />
+With this feature is possible to send/report feedback types: Bug, Idea or Other using e-mail with a comment and a screenshoot. <br />
 
 Trail Impulse from event Next Level Week Return realized by [Rocketseat](https://www.rocketseat.com.br). <br />
 
